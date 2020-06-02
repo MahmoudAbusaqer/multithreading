@@ -14,18 +14,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author Mahmoud_Abusaqer
  */
 @Entity
-//@Table(name = "registration")
-//@XmlRootElement
 public class Registration implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -104,7 +98,7 @@ public class Registration implements Serializable {
 
     @Override
     public String toString() {
-        return id+"";
+        return id + "";
     }
 
 }

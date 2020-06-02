@@ -6,7 +6,6 @@
 package com.Chapter6.Question1.controllers;
 
 import com.Chapter6.Question1.models.Registration;
-import com.Chapter6.Question1.models.Student;
 import com.Chapter6.Question1.repositories.CourseRepository;
 import com.Chapter6.Question1.repositories.RegistrationRepository;
 import com.Chapter6.Question1.repositories.StudentRepository;
@@ -17,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author hp
+ * @author Mahmoud_Abusaqer
  */
 @RestController
 public class MainController {

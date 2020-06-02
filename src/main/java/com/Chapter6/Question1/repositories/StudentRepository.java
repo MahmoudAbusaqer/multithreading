@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author hp
+ * @author Mahmoud_Abusaqer
  */
 public interface StudentRepository extends JpaRepository<Student, Integer>{
     

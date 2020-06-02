@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
 /**
  * FXML Controller class
  *
- * @author hp
+ * @author Mahmoud_Abusaqer
  */
 @Component
 public class StudentTableViewController implements Initializable {

@@ -12,12 +12,9 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
@@ -101,18 +98,9 @@ public class Student implements Serializable {
         return true;
     }
 
-//    @XmlTransient
-//    public List<Registration> getRegistrationList() {
-//        return registrationList;
-//    }
-//
-//    public void setRegistrationList(List<Registration> registrationList) {
-//        this.registrationList = registrationList;
-//    }
-
     @Override
     public String toString() {
-        return id+"";
+        return id + "";
     }
 
 }
