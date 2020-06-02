@@ -47,5 +47,10 @@ public class Java3Chapter7Multithreading {
             });
         }
         es.shutdown();
+        //The output for run of this program
+//        Thread 1 Reading This is the first file it is for chapter 7 multithreading assignment
+//        Thread 2 Reading This is the first file it is for chapter 7 multithreading assignment
+//        Thread 2 Reading This is the second file it is for chapter 7 multithreading assignment
+//        Thread 1 Reading This is the second file it is for chapter 7 multithreading assignment
     }
 }
